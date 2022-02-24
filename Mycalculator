@@ -1,0 +1,19 @@
+package week1.day2;
+
+public class Mycalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator cal = new Calculator();
+		int add = cal.add(1, 2, 3);
+		System.out.println("Addition" + " " + add);
+		int sub = cal.sub(0, 2);
+		System.out.println("Subtraction" + " " + sub);
+		double mul = cal.mul(6.456, 2.78);
+		System.out.println("Multiplication" + " " + mul);
+		float div = cal.div(1.34f, 2.456f);
+		System.out.println("Division" + " " + div);
+
+	}
+
+}
